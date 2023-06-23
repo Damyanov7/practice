@@ -72,4 +72,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 # practice
+The goals of this project:
+Read & Write to DB
+Register, Login Users
+On login server returns JWT token
+Whenever user does a req to the server it sends the JWT for AUTH
+The server should verify the JWT, but all requests that should expect JWT need to have some sort for pipe for the token verification
+After verification execute the operation (write some data, associated with the user sending the req)
+Write test enviroment testing all cases
+Use best design patterns, practices 
 # practice
